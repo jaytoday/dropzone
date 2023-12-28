@@ -3,25 +3,31 @@
     {
       "name": "src/dropzone.coffee",
       "regexs": [
-        "version: \"###\""
+        "Dropzone.version = \"###\""
       ]
     },
     {
-      "name": "lib/dropzone.js",
+      "name": "dist/dropzone.js",
       "regexs": [
         "version = \"###\""
       ]
     },
     {
-      "name": "downloads/dropzone.js",
+      "name": "dist/min/dropzone.min.js",
+      "regexs": [
+        "version=\"###\""
+      ]
+    },
+    {
+      "name": "dist/dropzone-amd-module.js",
       "regexs": [
         "version = \"###\""
       ]
     },
     {
-      "name": "downloads/dropzone-amd-module.js",
+      "name": "dist/min/dropzone-amd-module.min.js",
       "regexs": [
-        "version = \"###\""
+        "version=\"###\""
       ]
     },
     {
@@ -37,9 +43,9 @@
       ]
     },
     {
-      "name": "readme.md",
+      "name": "bower.json",
       "regexs": [
-        "Version ###"
+        "\"version\": \"###\""
       ]
     }
   ]
